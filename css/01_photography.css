@@ -1,0 +1,97 @@
+body {
+    font-family: 'Marvel', sans-serif;
+    color: whitesmoke;
+    background: url('img/bgpg.jpg');
+    background-size: 1920px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#pic a {
+    color: #00ff90;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid whitesmoke; */
+    margin: 140px auto;
+    height: 600px;
+}
+
+a .photos {
+    border: 2px solid wheat;
+    border-radius: 15px;
+    margin: 28px;
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    align-self: center;
+}
+
+#photo1 {
+    background: url(gallery/1.jpg);
+    background-size: 300px 250px;
+    border-radius: 15px;
+    background-position: bottom;
+}
+
+#photo2 {
+    background: url(gallery/9.jpeg);
+    background-size: 300px 250px;
+    border-radius: 15px;
+}
+
+#photo3 {
+    background: url(gallery/3.jpeg);
+    background-size: 300px 250px;
+    border-radius: 15px;
+}
+
+#photo4 {
+    background: url(gallery/4.jpeg);
+    background-size: 300px 250px;
+    border-radius: 15px;
+}
+
+#photo5 {
+    background: url(gallery/5.jpeg);
+    background-size: 300px 250px;
+    border-radius: 15px;
+}
+
+#photo6 {
+    background: url(gallery/6.jpeg);
+    background-size: 300px 250px;
+    border-radius: 15px;
+}
+
+#photo7 {
+    background: url(gallery/7.jpeg);
+    background-size: 300px 250px;
+    border-radius: 15px;
+}
+
+#photo8 {
+    background: url(gallery/8.jpeg);
+    background-size: 300px 250px;
+    border-radius: 15px;
+}
+
+#photo9 {
+    background: url(gallery/2.jpg);
+    background-size: 300px 250px;
+    border-radius: 15px;
+}
+
+#photo10 {
+    background: url(gallery/10.jpeg);
+    background-size: 300px 250px;
+    border-radius: 15px;
+}
+
+.photos:hover {
+    transform: scale(1.2);
+}

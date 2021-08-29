@@ -1,0 +1,83 @@
+body {
+    font-family: 'Marvel', sans-serif;
+    color: whitesmoke;
+    background: url('img/about.jpg');
+    background-size: 1920px;
+    background-position: bottom;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    /* border: 2px solid white; */
+    background-color: rgb(42, 42, 42);
+    width: 1910px;
+    height: 200px;
+    position: fixed;
+    bottom: 0px;
+    font-size: 18px;
+}
+
+.foot li {
+    list-style: none;
+    display: inline;
+    margin: 5px 6px;
+}
+
+.foot li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.Contact {
+    margin: 100px 880px;
+    position: relative;
+    justify-content: center;
+}
+
+.Contact button {
+    font-size: 15px;
+    font-weight: solid;
+    background-color: #e20303;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#aboutus a {
+    color: #fdff00;
+    font-weight: solid;
+}
+
+.Contact:hover {
+    transform: scale(1.1);
+}
+
+.desc {
+    /* border: 2px solid whitesmoke; */
+    display: block;
+}
+
+.contain {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid whitesmoke; */
+    margin: 150px 500px;
+    padding: 50px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.322);
+    color: black;
+}
+
+.contain h1 {
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.contain h4 {
+    font-size: 35px;
+}

@@ -1,0 +1,115 @@
+body {
+    background: url(img/bck.jpg);
+    background-size: 1920px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#list a {
+    color: red;
+}
+
+.navbar li a:hover {
+    color: cornflowerblue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid whitesmoke; */
+    margin: 130px auto;
+    height: 550px;
+}
+
+.gamebox {
+    border: 2px solid initial;
+    border-radius: 15px;
+    margin: 30px;
+    display: inline-block;
+    width: 300px;
+    height: 330px;
+    align-self: center;
+}
+
+#game1 {
+    background-image: url(img/6129c6c3cfcbf.jpg);
+    background-position: center;
+    background-size: 310px 330px;
+}
+
+#game2 {
+    background-image: url(img/omen.jpg);
+    background-position: center;
+    background-size: 300px 400px;
+}
+
+#game3 {
+    background-image: url(img/sage.jpg);
+    background-position: center;
+    background-size: 300px 420px;
+}
+
+#game4 {
+    background-image: url(img/pubg-mobile-wallpaper-4k-2048x1152.jpg);
+    background-position: left;
+    background-size: 300px 330px;
+}
+
+#game5 {
+    background-image: url(img/Gaming.jpg);
+    filter: opacity(100%);
+    background-position: center;
+    background-size: 320px 358px;
+}
+
+.gamebox .gaming h1 {
+    font-family: 'Revalia', cursive;
+    font-size: 40px;
+    position: relative;
+    bottom: -130px;
+    padding: 10px;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.gamebox .gaming1 h1 {
+    font-size: 55px;
+    position: relative;
+    bottom: -220px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.gamebox .gaming2 h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: -170px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.gamebox .gaming3 h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: -220px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.gamebox .gaming4 h1 {
+    font-size: 100px;
+    position: relative;
+    bottom: -30px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.gamebox:hover {
+    transform: scale(0.9);
+}

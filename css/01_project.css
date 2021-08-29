@@ -1,0 +1,237 @@
+body {
+    font-family: 'Marvel', sans-serif;
+    color: whitesmoke;
+    background: url('img/bg.jpg');
+    background-size: 1920px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* For Logo And Suff */
+
+.left {
+    /* border: 2px solid white; */
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+
+
+/* For Navigation Bar */
+
+.mid {
+    /* border: 2px solid whitesmoke; */
+    display: block;
+    margin: 25px auto;
+    width: 40%;
+}
+
+
+/* For Contact and Services */
+
+.right {
+    /* border: 2px solid greenyellow; */
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 12px;
+}
+
+.navbar ul {
+    /* border: 2px solid whitesmoke; */
+    height: 50px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 6px;
+}
+
+.navbar li a {
+    font-size: 28px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 6px;
+}
+
+.navbar input {
+    border-radius: 20px;
+    padding: 10px 17px;
+    width: 150px;
+    margin: 10px 10px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li a:hover {
+    color: cornflowerblue;
+}
+
+.navbar li a:active {
+    color: red;
+}
+
+#ghar a {
+    color: #a400ff;
+}
+
+
+/* .search{
+    float: right;
+    padding: 12px 70px;
+} */
+
+.left a img {
+    width: 50px;
+    filter: saturate(100%);
+    filter: drop-shadow(50%);
+}
+
+.logo {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+a:hover .logo {
+    color: tomato;
+}
+
+#insta {
+    width: 50px;
+    filter: invert(100%);
+    margin: 1px 10px;
+}
+
+.right a img {
+    width: 50px;
+    margin: 1px 10px;
+}
+
+footer {
+    /* border: 2px solid white; */
+    background-color: rgb(42, 42, 42);
+    width: 1910px;
+    position: fixed;
+    bottom: 0px;
+    font-size: 18px;
+}
+
+.foot li {
+    list-style: none;
+    display: inline;
+    margin: 5px 6px;
+}
+
+.foot li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.creater {
+    font-size: 19px;
+    position: relative;
+    left: 1450px;
+}
+
+.policy {
+    position: relative;
+    left: 750px;
+}
+
+a .policy {
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid whitesmoke; */
+    margin: 250px auto;
+    height: 400px;
+}
+
+.box {
+    border: 2px solid inherit;
+    border-radius: 15px;
+    margin: 50px;
+    display: inline-block;
+    width: 300px;
+    height: 330px;
+    align-self: center;
+}
+
+#item-1 {
+    background-image: url(img/Gaming.jpg);
+    background-size: 500px 330px;
+    border-radius: 15px;
+}
+
+#item-2 {
+    background-image: url(img/books.jpg);
+    background-size: 500px 330px;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#item-3 {
+    background-image: url(img/Photgraphy.jpg);
+    background-size: 300px 330px;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#Game p {
+    color: rgba(0, 0, 0, 0);
+}
+
+#books p {
+    color: rgba(0, 0, 0, 0);
+}
+
+#photo p {
+    color: rgba(0, 0, 0, 0);
+}
+
+.box .gaming h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: -150px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke
+}
+
+.box .suggetion h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke
+}
+
+.box .photography h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: -160px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.navbar li:hover {
+    transform: scale(1.2);
+}

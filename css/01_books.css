@@ -1,0 +1,98 @@
+body {
+    font-family: 'Marvel', sans-serif;
+    color: whitesmoke;
+    background: url('img/book.jpg');
+    background-size: 1920px;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#booksec a {
+    color: chocolate;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid whitesmoke; */
+    margin: 130px auto;
+    height: 550px;
+}
+
+.bookbox {
+    border: 2px solid initial;
+    border-radius: 15px;
+    margin: 30px;
+    display: inline-block;
+    width: 300px;
+    height: 330px;
+    align-self: center;
+}
+
+.bookbox:hover {
+    transform: scale(1.1);
+}
+
+#book1 {
+    background: url(img/harry.jpeg);
+    background-size: 300px 330px;
+    background-position: center;
+    color: goldenrod;
+    font-size: 30px;
+    text-align: center;
+}
+
+#book1 h1 {
+    font-family: 'Harry Potter', sans-serif;
+    position: relative;
+    bottom: -200px;
+}
+
+#book2 {
+    background: url(img/fiction.jpg);
+    background-size: 300px 500px;
+    background-position: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+#book2 h1 {
+    font-family: "DrawzingW00-Regular";
+    color: ghostwhite;
+    position: relative;
+    bottom: -200px;
+}
+
+#book3 {
+    background: url(img/self.jpg);
+    background-size: 800px 500px;
+    background-position: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+#book3 h1 {
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(185, 0, 0);
+    position: relative;
+    bottom: -200px;
+}
+
+#book4 {
+    background: url(img/life.jpg);
+    background-size: 500px 330px;
+    background-position: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+#book4 h1 {
+    font-family: 'Sree Krushnadevaraya', serif;
+    color: gold;
+    text-shadow: 5px 5px black;
+    position: relative;
+    bottom: -170px;
+}
